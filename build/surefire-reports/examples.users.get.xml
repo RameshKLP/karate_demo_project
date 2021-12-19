@@ -1,0 +1,12 @@
+<testsuite failures="0" name="examples/users/get.feature" skipped="0" tests="1" time="1.407926">
+  <testcase classname="examples.users.get" name="Get Demo2" time="1.407926">
+    <system-out>* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+11:55:05.079 karate.env system property was:  
+11:55:07.088 request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:55:07.119 java.net.UnknownHostException: reqres.in, http call failed after 30 milliseconds for URL: https://reqres.in/api/users%3Fpage=2
+11:55:07.119 http request failed: 
+java.net.UnknownHostException: reqres.in

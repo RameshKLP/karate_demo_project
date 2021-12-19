@@ -1,0 +1,759 @@
+11:51:06.542 [Test worker] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags @TC1,~@TC2
+11:51:08.000 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:51:08.260 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:51:09.345 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:51:09.380 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - java.net.UnknownHostException: reqres.in, http call failed after 32 milliseconds for URL: https://reqres.in/api/users%3Fpage=2
+11:51:09.381 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+java.net.UnknownHostException: reqres.in
+11:51:09.454 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 5: classpath:examples/users/get.feature
+11:51:38.379 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:51:38.658 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:51:38.658 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+11:51:39.763 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:51:39.763 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:51:39.791 [ForkJoinPool-1-worker-2] ERROR com.intuit.karate - java.net.UnknownHostException: reqres.in, http call failed after 27 milliseconds for URL: https://reqres.in/api/users%3Fpage=2
+11:51:39.791 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - java.net.UnknownHostException: reqres.in, http call failed after 27 milliseconds for URL: https://reqres.in/api/users%3Fpage=2
+11:51:39.792 [ForkJoinPool-1-worker-2] ERROR com.intuit.karate - http request failed: 
+java.net.UnknownHostException: reqres.in
+11:51:39.795 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+java.net.UnknownHostException: reqres.in
+11:51:39.855 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 5: classpath:examples/users/get.feature
+11:51:58.909 [Test worker] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags @TC1,~@TC2
+11:52:00.353 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:52:00.601 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:52:01.670 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:52:01.703 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - java.net.UnknownHostException: reqres.in, http call failed after 32 milliseconds for URL: https://reqres.in/api/users%3Fpage=2
+11:52:01.704 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+java.net.UnknownHostException: reqres.in
+11:52:01.776 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 5: classpath:examples/users/get.feature
+11:55:04.633 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:55:04.723 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 11 - ^Get Demo1$
+11:55:05.079 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:55:07.088 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:55:07.119 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - java.net.UnknownHostException: reqres.in, http call failed after 30 milliseconds for URL: https://reqres.in/api/users%3Fpage=2
+11:55:07.119 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+java.net.UnknownHostException: reqres.in
+11:55:07.234 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/get.feature
+11:56:40.423 [Test worker] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags @TC1,~@TC2
+11:56:41.850 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:56:42.086 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:56:43.189 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:56:44.556 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1360.38
+1 < 200
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 6bfe8f9d4a99856b-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 19 Dec 2021 06:26:43 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wex21irLDCDCLw5dTI3mBNW758LtDcBW%2BbMViKbbEntBqwZTNKMgEupKHOuWVVom13vQQ8YhmzaR8EYbBMy7JNRz9GUL%2BHusNex%2FnllCvBa8zM4mjxuA4xl0qak%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < access-control-allow-origin: *
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+1 < etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 4,
+      "name": "aqua sky",
+      "year": 2003,
+      "color": "#7BC4C4",
+      "pantone_value": "14-4811"
+    },
+    {
+      "id": 5,
+      "name": "tigerlily",
+      "year": 2004,
+      "color": "#E2583E",
+      "pantone_value": "17-1456"
+    },
+    {
+      "id": 6,
+      "name": "blue turquoise",
+      "year": 2005,
+      "color": "#53B0AE",
+      "pantone_value": "15-5217"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+
+
+11:56:44.569 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "color": "#98B2D1",
+      "year": 2000,
+      "name": "cerulean",
+      "id": 1,
+      "pantone_value": "15-4020"
+    },
+    {
+      "color": "#C74375",
+      "year": 2001,
+      "name": "fuchsia rose",
+      "id": 2,
+      "pantone_value": "17-2031"
+    },
+    {
+      "color": "#BF1932",
+      "year": 2002,
+      "name": "true red",
+      "id": 3,
+      "pantone_value": "19-1664"
+    },
+    {
+      "color": "#7BC4C4",
+      "year": 2003,
+      "name": "aqua sky",
+      "id": 4,
+      "pantone_value": "14-4811"
+    },
+    {
+      "color": "#E2583E",
+      "year": 2004,
+      "name": "tigerlily",
+      "id": 5,
+      "pantone_value": "17-1456"
+    },
+    {
+      "color": "#53B0AE",
+      "year": 2005,
+      "name": "blue turquoise",
+      "id": 6,
+      "pantone_value": "15-5217"
+    }
+  ],
+  "page": 1,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+11:56:44.575 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 1360
+11:56:44.576 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 200
+11:56:44.577 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "Date": [
+    "Sun, 19 Dec 2021 06:26:43 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Transfer-Encoding": [
+    "chunked"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "x-powered-by": [
+    "Express"
+  ],
+  "access-control-allow-origin": [
+    "*"
+  ],
+  "etag": [
+    "W/\"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8\""
+  ],
+  "via": [
+    "1.1 vegur"
+  ],
+  "Cache-Control": [
+    "max-age=14400"
+  ],
+  "CF-Cache-Status": [
+    "REVALIDATED"
+  ],
+  "Expect-CT": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Report-To": [
+    "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=wex21irLDCDCLw5dTI3mBNW758LtDcBW%2BbMViKbbEntBqwZTNKMgEupKHOuWVVom13vQQ8YhmzaR8EYbBMy7JNRz9GUL%2BHusNex%2FnllCvBa8zM4mjxuA4xl0qak%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+  ],
+  "NEL": [
+    "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "CF-RAY": [
+    "6bfe8f9d4a99856b-BOM"
+  ],
+  "alt-svc": [
+    "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400"
+  ]
+}
+
+11:56:44.585 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 
+11:56:44.658 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 5: classpath:examples/users/get.feature
+11:57:32.099 [Test worker] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags @TC2
+11:57:33.557 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:57:33.807 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:57:34.897 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+11:57:35.641 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 736.98
+1 < 200
+1 < Age: 52
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 6bfe90e04f5584d7-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 19 Dec 2021 06:27:35 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fMaExsOdzhEuIfEiVkJTGYsF%2FC07sxt7xVVirMrBu5F2iLczBBVV0CgnSJh079SRmajSohcd%2BewHjlMt3eyxfaN2L6dU0WyEgtOwNGPj5ZTJgn3X7c7tEN8uGpA%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < access-control-allow-origin: *
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+1 < etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 4,
+      "name": "aqua sky",
+      "year": 2003,
+      "color": "#7BC4C4",
+      "pantone_value": "14-4811"
+    },
+    {
+      "id": 5,
+      "name": "tigerlily",
+      "year": 2004,
+      "color": "#E2583E",
+      "pantone_value": "17-1456"
+    },
+    {
+      "id": 6,
+      "name": "blue turquoise",
+      "year": 2005,
+      "color": "#53B0AE",
+      "pantone_value": "15-5217"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+
+
+11:57:35.652 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "color": "#98B2D1",
+      "year": 2000,
+      "name": "cerulean",
+      "id": 1,
+      "pantone_value": "15-4020"
+    },
+    {
+      "color": "#C74375",
+      "year": 2001,
+      "name": "fuchsia rose",
+      "id": 2,
+      "pantone_value": "17-2031"
+    },
+    {
+      "color": "#BF1932",
+      "year": 2002,
+      "name": "true red",
+      "id": 3,
+      "pantone_value": "19-1664"
+    },
+    {
+      "color": "#7BC4C4",
+      "year": 2003,
+      "name": "aqua sky",
+      "id": 4,
+      "pantone_value": "14-4811"
+    },
+    {
+      "color": "#E2583E",
+      "year": 2004,
+      "name": "tigerlily",
+      "id": 5,
+      "pantone_value": "17-1456"
+    },
+    {
+      "color": "#53B0AE",
+      "year": 2005,
+      "name": "blue turquoise",
+      "id": 6,
+      "pantone_value": "15-5217"
+    }
+  ],
+  "page": 1,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+11:57:35.754 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 5: classpath:examples/users/get.feature
+12:19:26.526 [Test worker] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags @TC1,~@TC2
+12:19:27.956 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:19:28.207 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+12:19:29.272 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+12:19:29.602 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 323.80
+1 < 200
+1 < Age: 4128
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 6bfeb0f50d923c00-BLR
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 19 Dec 2021 06:49:29 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HNLYrKe67yDasVW9RIyLSrzPhrPU%2FYFBnaHOxZriVh7UfsXFvbVAgKMATYzjUpU9Ifgp3CODIkDI1IFNMezqlBRKD9zrUltrv0WG%2BE89fkyvIv4s3fzSWc0awBE%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < access-control-allow-origin: *
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+1 < etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 4,
+      "name": "aqua sky",
+      "year": 2003,
+      "color": "#7BC4C4",
+      "pantone_value": "14-4811"
+    },
+    {
+      "id": 5,
+      "name": "tigerlily",
+      "year": 2004,
+      "color": "#E2583E",
+      "pantone_value": "17-1456"
+    },
+    {
+      "id": 6,
+      "name": "blue turquoise",
+      "year": 2005,
+      "color": "#53B0AE",
+      "pantone_value": "15-5217"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+
+
+12:19:29.610 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "color": "#98B2D1",
+      "year": 2000,
+      "name": "cerulean",
+      "id": 1,
+      "pantone_value": "15-4020"
+    },
+    {
+      "color": "#C74375",
+      "year": 2001,
+      "name": "fuchsia rose",
+      "id": 2,
+      "pantone_value": "17-2031"
+    },
+    {
+      "color": "#BF1932",
+      "year": 2002,
+      "name": "true red",
+      "id": 3,
+      "pantone_value": "19-1664"
+    },
+    {
+      "color": "#7BC4C4",
+      "year": 2003,
+      "name": "aqua sky",
+      "id": 4,
+      "pantone_value": "14-4811"
+    },
+    {
+      "color": "#E2583E",
+      "year": 2004,
+      "name": "tigerlily",
+      "id": 5,
+      "pantone_value": "17-1456"
+    },
+    {
+      "color": "#53B0AE",
+      "year": 2005,
+      "name": "blue turquoise",
+      "id": 6,
+      "pantone_value": "15-5217"
+    }
+  ],
+  "page": 1,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+12:19:29.614 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 324
+12:19:29.615 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 200
+12:19:29.616 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "Date": [
+    "Sun, 19 Dec 2021 06:49:29 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Transfer-Encoding": [
+    "chunked"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "x-powered-by": [
+    "Express"
+  ],
+  "access-control-allow-origin": [
+    "*"
+  ],
+  "etag": [
+    "W/\"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8\""
+  ],
+  "via": [
+    "1.1 vegur"
+  ],
+  "Cache-Control": [
+    "max-age=14400"
+  ],
+  "CF-Cache-Status": [
+    "HIT"
+  ],
+  "Age": [
+    "4128"
+  ],
+  "Expect-CT": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Report-To": [
+    "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=HNLYrKe67yDasVW9RIyLSrzPhrPU%2FYFBnaHOxZriVh7UfsXFvbVAgKMATYzjUpU9Ifgp3CODIkDI1IFNMezqlBRKD9zrUltrv0WG%2BE89fkyvIv4s3fzSWc0awBE%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+  ],
+  "NEL": [
+    "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "CF-RAY": [
+    "6bfeb0f50d923c00-BLR"
+  ],
+  "alt-svc": [
+    "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400"
+  ]
+}
+
+12:19:29.619 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 
+12:19:29.681 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 5: classpath:examples/users/get.feature
+12:29:23.782 [Test worker] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags @TC2
+12:29:25.222 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:29:25.435 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+12:29:26.633 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+12:29:26.947 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 307.62
+1 < 200
+1 < Age: 4725
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 6bfebf8a7d803c01-BLR
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 19 Dec 2021 06:59:26 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cUCOAw4Sv6CGzu4Psiiu8Yw6JjafxCRE6wqe4JyqboGt0cUVI%2F2%2FSneFotycKs1O77jRi6wntoiaNME8bedEy0CbltyojNxLk1ZBf1lYfg1tlJb31fUVgZ3QdbU%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < access-control-allow-origin: *
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+1 < etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 4,
+      "name": "aqua sky",
+      "year": 2003,
+      "color": "#7BC4C4",
+      "pantone_value": "14-4811"
+    },
+    {
+      "id": 5,
+      "name": "tigerlily",
+      "year": 2004,
+      "color": "#E2583E",
+      "pantone_value": "17-1456"
+    },
+    {
+      "id": 6,
+      "name": "blue turquoise",
+      "year": 2005,
+      "color": "#53B0AE",
+      "pantone_value": "15-5217"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+
+
+12:29:26.955 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "color": "#98B2D1",
+      "year": 2000,
+      "name": "cerulean",
+      "id": 1,
+      "pantone_value": "15-4020"
+    },
+    {
+      "color": "#C74375",
+      "year": 2001,
+      "name": "fuchsia rose",
+      "id": 2,
+      "pantone_value": "17-2031"
+    },
+    {
+      "color": "#BF1932",
+      "year": 2002,
+      "name": "true red",
+      "id": 3,
+      "pantone_value": "19-1664"
+    },
+    {
+      "color": "#7BC4C4",
+      "year": 2003,
+      "name": "aqua sky",
+      "id": 4,
+      "pantone_value": "14-4811"
+    },
+    {
+      "color": "#E2583E",
+      "year": 2004,
+      "name": "tigerlily",
+      "id": 5,
+      "pantone_value": "17-1456"
+    },
+    {
+      "color": "#53B0AE",
+      "year": 2005,
+      "name": "blue turquoise",
+      "id": 6,
+      "pantone_value": "15-5217"
+    }
+  ],
+  "page": 1,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+12:29:27.037 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 5: classpath:examples/users/get.feature

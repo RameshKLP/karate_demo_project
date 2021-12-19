@@ -1,0 +1,22 @@
+<testsuite failures="1" name="src/test/java/examples/users/get.feature" skipped="0" tests="1" time="1.714137">
+  <testcase classname="src.test.java.examples.users.get" name="Get Demo1" time="1.714137">
+    <failure message="get.feature:13 - &#10;java.net.UnknownHostException: reqres.in">* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: get.feature:13 - 
+java.net.UnknownHostException: reqres.in&#13;
+	at ✽.When method GET (get.feature:13)&#13;
+
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+And print responseTime .................................................... skipped
+And print responseStatus .................................................. skipped
+And print responseHeaders ................................................. skipped
+And print responseCookies ................................................. skipped</failure>
+  </testcase>
+</testsuite>

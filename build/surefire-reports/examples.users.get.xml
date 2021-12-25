@@ -1,5 +1,5 @@
-<testsuite failures="0" name="examples/users/get.feature" skipped="0" tests="4" time="1.731307">
-  <testcase classname="examples.users.get" name="Get Demo1" time="1.530927">
+<testsuite failures="0" name="examples/users/get.feature" skipped="0" tests="4" time="3.158175">
+  <testcase classname="examples.users.get" name="Get Demo1" time="1.501905">
     <system-out>* url someUrlBase ......................................................... passed
 * configure logPrettyResponse = true ...................................... passed
 * configure logPrettyRequest = true ....................................... passed
@@ -14,7 +14,7 @@ And print responseStatus .................................................. pass
 And print responseHeaders ................................................. passed
 And print responseCookies ................................................. passed</system-out>
   </testcase>
-  <testcase classname="examples.users.get" name="Get Demo2" time="0.042927">
+  <testcase classname="examples.users.get" name="Get Demo2" time="1.491329">
     <system-out>* url someUrlBase ......................................................... passed
 * configure logPrettyResponse = true ...................................... passed
 * configure logPrettyRequest = true ....................................... passed
@@ -38,7 +38,7 @@ When method GET ........................................................... pass
 Then status 200 ........................................................... passed
 And print response ........................................................ passed</system-out>
   </testcase>
-  <testcase classname="examples.users.get" name="Get Demo3" time="0.057804">
+  <testcase classname="examples.users.get" name="Get Demo3" time="0.0719">
     <system-out>* url someUrlBase ......................................................... passed
 * configure logPrettyResponse = true ...................................... passed
 * configure logPrettyRequest = true ....................................... passed
@@ -72,7 +72,7 @@ When method GET ........................................................... pass
 Then status 200 ........................................................... passed
 And print response ........................................................ passed</system-out>
   </testcase>
-  <testcase classname="examples.users.get" name="Get Demo4" time="0.099649">
+  <testcase classname="examples.users.get" name="Get Demo4" time="0.093041">
     <system-out>* url someUrlBase ......................................................... passed
 * configure logPrettyResponse = true ...................................... passed
 * configure logPrettyRequest = true ....................................... passed

@@ -47,7 +47,7 @@
         
 <div id="nav-type">Scenarios</div>         
         
-<div id="nav-date">2021-12-25 01:20:18 PM</div>        
+<div id="nav-date">2021-12-25 03:00:30 PM</div>        
       
 <div class="nav-container">
 <div class="nav-item passed">
@@ -78,7 +78,7 @@
 </div>
 <span class="scenario-keyword">Scenario: [1:12]</span><span class="scenario-name">Get Demo1 </span>
 </div>
-<div class="scenario-time passed">ms: 1531</div>
+<div class="scenario-time passed">ms: 1502</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="[1:12]bg">
@@ -94,7 +94,7 @@
 </div>
 <div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="1">13:20:16.419 karate.env system property was:</div>
+<div class="preformatted" data-parent="1">15:00:28.342 karate.env system property was:</div>
 <div class="step-row" data-parent="[1:12]bg">
 <div class="step-container" id="2">
 <div class="step-ref bg-step">2</div>
@@ -107,37 +107,37 @@
 <div class="step-ref bg-step">3</div>
 <div class="step-cell passed">* configure logPrettyRequest = true</div>
 </div>
-<div class="time-cell passed">6</div>
+<div class="time-cell passed">35</div>
 </div>
 <div class="step-row" data-parent="[1:12]bg">
 <div class="step-container" id="4">
 <div class="step-ref bg-step">4</div>
 <div class="step-cell passed">* header Accept = 'application/json'</div>
 </div>
-<div class="time-cell passed">4</div>
+<div class="time-cell passed">0</div>
 </div>
 <div class="step-row" data-parent="[1:12]bg">
 <div class="step-container" id="5">
 <div class="step-ref bg-step">5</div>
 <div class="step-cell passed">* configure report = { showLog: true, showAllSteps: false }</div>
 </div>
-<div class="time-cell passed">26</div>
+<div class="time-cell passed">0</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="6">
 <div class="step-ref passed">6</div>
 <div class="step-cell passed">Given path 'users?page=2'</div>
 </div>
-<div class="time-cell passed">4</div>
+<div class="time-cell passed">0</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="7">
 <div class="step-ref passed">7</div>
 <div class="step-cell passed">When method GET</div>
 </div>
-<div class="time-cell passed">1478</div>
+<div class="time-cell passed">1457</div>
 </div>
-<div class="preformatted" data-parent="7">13:20:17.615 request:
+<div class="preformatted" data-parent="7">15:00:29.501 request:
 1 &gt; GET https://reqres.in/api/users%3Fpage=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -145,18 +145,18 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:18.073 response time in milliseconds: 451.17
+15:00:29.904 response time in milliseconds: 393.94
 1 &lt; 200
-1 &lt; Age: 3712
+1 &lt; Age: 22
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4b6dda3c00-BLR
+1 &lt; CF-RAY: 6c310d121f6083f5-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=i1pnkkaRzYUAb7W8dcftq%2BN%2FYHqOD2TLT%2FSLpkbwSq9iRj3ZpSsXZKvGUZAObhR2jlzlwCy%2FTah1e4EVTF%2F6QD4nKCdqPjmQQmBobDPnheMC0H30jCoUQdLdL5E%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ShWdm2Fd9vlTWSDAQzHx0kOwTuB82WonscEDF5k9mhwq4JhBdOlohphnDjU1pGNzxduW6rJbwNoWiR1IvQHN3vLDfZ3vyBANSlS1gpiXvgOIqE42e5sPjt%2BSFJA%3D"}],"group":"cf-nel","max_age":604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -231,9 +231,9 @@
 <div class="step-ref passed">9</div>
 <div class="step-cell passed">And print response</div>
 </div>
-<div class="time-cell passed">3</div>
+<div class="time-cell passed">2</div>
 </div>
-<div class="preformatted" data-parent="9">13:20:18.077 [print] {
+<div class="preformatted" data-parent="9">15:00:29.935 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -292,27 +292,27 @@
 <div class="step-ref passed">10</div>
 <div class="step-cell passed">And print responseTime</div>
 </div>
-<div class="time-cell passed">1</div>
+<div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="10">13:20:18.078 [print] 451</div>
+<div class="preformatted" data-parent="10">15:00:29.935 [print] 394</div>
 <div class="step-row">
 <div class="step-container" id="11">
 <div class="step-ref passed">11</div>
 <div class="step-cell passed">And print responseStatus</div>
 </div>
-<div class="time-cell passed">1</div>
+<div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="11">13:20:18.079 [print] 200</div>
+<div class="preformatted" data-parent="11">15:00:29.936 [print] 200</div>
 <div class="step-row">
 <div class="step-container" id="12">
 <div class="step-ref passed">12</div>
 <div class="step-cell passed">And print responseHeaders</div>
 </div>
-<div class="time-cell passed">3</div>
+<div class="time-cell passed">2</div>
 </div>
-<div class="preformatted" data-parent="12">13:20:18.082 [print] {
+<div class="preformatted" data-parent="12">15:00:29.938 [print] {
   "Date": [
-    "Sat, 25 Dec 2021 07:50:18 GMT"
+    "Sat, 25 Dec 2021 09:30:30 GMT"
   ],
   "Content-Type": [
     "application/json; charset=utf-8"
@@ -342,13 +342,13 @@
     "HIT"
   ],
   "Age": [
-    "3712"
+    "22"
   ],
   "Expect-CT": [
     "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
   ],
   "Report-To": [
-    "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=i1pnkkaRzYUAb7W8dcftq%2BN%2FYHqOD2TLT%2FSLpkbwSq9iRj3ZpSsXZKvGUZAObhR2jlzlwCy%2FTah1e4EVTF%2F6QD4nKCdqPjmQQmBobDPnheMC0H30jCoUQdLdL5E%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+    "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ShWdm2Fd9vlTWSDAQzHx0kOwTuB82WonscEDF5k9mhwq4JhBdOlohphnDjU1pGNzxduW6rJbwNoWiR1IvQHN3vLDfZ3vyBANSlS1gpiXvgOIqE42e5sPjt%2BSFJA%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
   ],
   "NEL": [
     "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
@@ -360,7 +360,7 @@
     "cloudflare"
   ],
   "CF-RAY": [
-    "6c307a4b6dda3c00-BLR"
+    "6c310d121f6083f5-BLR"
   ],
   "alt-svc": [
     "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400"
@@ -371,9 +371,9 @@
 <div class="step-ref passed">13</div>
 <div class="step-cell passed">And print responseCookies</div>
 </div>
-<div class="time-cell passed">1</div>
+<div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="13">13:20:18.083 [print]</div>
+<div class="preformatted" data-parent="13">15:00:29.939 [print]</div>
 </div>
 <div class="scenario">
 <div class="scenario-heading" id="[2:23]">
@@ -383,7 +383,7 @@
 </div>
 <span class="scenario-keyword">Scenario: [2:23]</span><span class="scenario-name">Get Demo2 </span>
 </div>
-<div class="scenario-time passed">ms: 43</div>
+<div class="scenario-time passed">ms: 1491</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="[2:23]bg">
@@ -399,27 +399,27 @@
 </div>
 <div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="14">13:20:18.094 karate.env system property was:</div>
+<div class="preformatted" data-parent="14">15:00:28.318 karate.env system property was:</div>
 <div class="step-row" data-parent="[2:23]bg">
 <div class="step-container" id="15">
 <div class="step-ref bg-step">15</div>
 <div class="step-cell passed">* configure logPrettyResponse = true</div>
 </div>
-<div class="time-cell passed">0</div>
+<div class="time-cell passed">9</div>
 </div>
 <div class="step-row" data-parent="[2:23]bg">
 <div class="step-container" id="16">
 <div class="step-ref bg-step">16</div>
 <div class="step-cell passed">* configure logPrettyRequest = true</div>
 </div>
-<div class="time-cell passed">0</div>
+<div class="time-cell passed">16</div>
 </div>
 <div class="step-row" data-parent="[2:23]bg">
 <div class="step-container" id="17">
 <div class="step-ref bg-step">17</div>
 <div class="step-cell passed">* header Accept = 'application/json'</div>
 </div>
-<div class="time-cell passed">1</div>
+<div class="time-cell passed">0</div>
 </div>
 <div class="step-row" data-parent="[2:23]bg">
 <div class="step-container" id="18">
@@ -433,16 +433,16 @@
 <div class="step-ref passed">19</div>
 <div class="step-cell passed">Given path 'users?page=2'</div>
 </div>
-<div class="time-cell passed">0</div>
+<div class="time-cell passed">6</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="20">
 <div class="step-ref passed">20</div>
 <div class="step-cell passed">When method GET</div>
 </div>
-<div class="time-cell passed">39</div>
+<div class="time-cell passed">1459</div>
 </div>
-<div class="preformatted" data-parent="20">13:20:18.105 request:
+<div class="preformatted" data-parent="20">15:00:29.502 request:
 1 &gt; GET https://reqres.in/api/users%3Fpage=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -450,18 +450,18 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:18.139 response time in milliseconds: 30.58
+15:00:29.909 response time in milliseconds: 392.63
 1 &lt; 200
-1 &lt; Age: 3712
+1 &lt; Age: 22
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4bea3e3c06-BLR
+1 &lt; CF-RAY: 6c310d121d6a3c12-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=evRu1AxkasF7w%2BvHsC9RtdqbWj7hlSi4NVzpK2MX%2FWK5fsS%2B5dnWM6yfzWKJv7hQfxNCqKd%2BjlJZXuaqDiBI%2FtdmDx2CoVGJtRdeRD0Ch1XCz%2BbOjkEkPUbfLSU%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OTLO2kH%2FKGkA9XlzRgOdMzN%2BYIXdvOA2cYERmUdOJYx4tQYNprPtdFzFGn31%2F%2FxK7Nmp6YBeCpfRmHpm3ijvlDoZ8wuqeq2MngSms4Vt1wo7G9LRUMunccZb5zg%3D"}],"group":"cf-nel","max_age":604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -538,7 +538,7 @@
 </div>
 <div class="time-cell passed">2</div>
 </div>
-<div class="preformatted" data-parent="22">13:20:18.143 [print] {
+<div class="preformatted" data-parent="22">15:00:29.945 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -601,7 +601,7 @@
 </div>
 <span class="scenario-keyword">Scenario: [3:30]</span><span class="scenario-name">Get Demo3 </span>
 </div>
-<div class="scenario-time passed">ms: 58</div>
+<div class="scenario-time passed">ms: 72</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="[3:30]bg">
@@ -617,7 +617,7 @@
 </div>
 <div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="23">13:20:18.155 karate.env system property was:</div>
+<div class="preformatted" data-parent="23">15:00:29.964 karate.env system property was:</div>
 <div class="step-row" data-parent="[3:30]bg">
 <div class="step-container" id="24">
 <div class="step-ref bg-step">24</div>
@@ -651,23 +651,23 @@
 <div class="step-ref passed">28</div>
 <div class="step-cell passed">Given path '/users'</div>
 </div>
-<div class="time-cell passed">4</div>
+<div class="time-cell passed">10</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="29">
 <div class="step-ref passed">29</div>
 <div class="step-cell passed">And param page = 2</div>
 </div>
-<div class="time-cell passed">3</div>
+<div class="time-cell passed">6</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="30">
 <div class="step-ref passed">30</div>
 <div class="step-cell passed">When method GET</div>
 </div>
-<div class="time-cell passed">41</div>
+<div class="time-cell passed">53</div>
 </div>
-<div class="preformatted" data-parent="30">13:20:18.169 request:
+<div class="preformatted" data-parent="30">15:00:29.990 request:
 1 &gt; GET https://reqres.in/api/users?page=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -675,18 +675,18 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:18.207 response time in milliseconds: 34.01
+15:00:30.040 response time in milliseconds: 47.74
 1 &lt; 200
-1 &lt; Age: 82
+1 &lt; Age: 6094
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4c5ad43c12-BLR
+1 &lt; CF-RAY: 6c310d13084e3c0c-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mzzE7BNNltsSMf7b%2Fq%2BmMtr7Sp%2FL1FxqG07rUnkAxL3kWihNTuR80W4L7p9aDRFyxo1pP%2FH4f3U2sNUMi2WxS3IOQwrtE%2BO0qIRJmuJIiTiwEqjsPT6gmswnysI%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sGTmszQHAZd7pg%2F2BiAuRCV%2BMjYuV9KF5HYOKxGeJDMlvoPznnD4ZuMgaMTUjG0bO1BcIZXr%2FmftTyI4tOQoY2yHMDj8z3oR2DpFdjN7HlDiht2Sy4H0hh00m1A%3D"}],"group":"cf-nel","max_age":604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -761,9 +761,9 @@
 <div class="step-ref passed">32</div>
 <div class="step-cell passed">And print response</div>
 </div>
-<div class="time-cell passed">8</div>
+<div class="time-cell passed">1</div>
 </div>
-<div class="preformatted" data-parent="32">13:20:18.216 [print] {
+<div class="preformatted" data-parent="32">15:00:30.042 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -826,7 +826,7 @@
 </div>
 <span class="scenario-keyword">Scenario: [4:38]</span><span class="scenario-name">Get Demo4 </span>
 </div>
-<div class="scenario-time passed">ms: 100</div>
+<div class="scenario-time passed">ms: 93</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="[4:38]bg">
@@ -842,7 +842,7 @@
 </div>
 <div class="time-cell passed">0</div>
 </div>
-<div class="preformatted" data-parent="33">13:20:18.233 karate.env system property was:</div>
+<div class="preformatted" data-parent="33">15:00:30.053 karate.env system property was:</div>
 <div class="step-row" data-parent="[4:38]bg">
 <div class="step-container" id="34">
 <div class="step-ref bg-step">34</div>
@@ -890,9 +890,9 @@
 <div class="step-ref passed">40</div>
 <div class="step-cell passed">When method GET</div>
 </div>
-<div class="time-cell passed">35</div>
+<div class="time-cell passed">55</div>
 </div>
-<div class="preformatted" data-parent="40">13:20:18.240 request:
+<div class="preformatted" data-parent="40">15:00:30.059 request:
 1 &gt; GET https://reqres.in/api/users?page=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -900,18 +900,18 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:18.272 response time in milliseconds: 28.25
+15:00:30.111 response time in milliseconds: 48.97
 1 &lt; 200
-1 &lt; Age: 82
+1 &lt; Age: 6094
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4ccedc3c01-BLR
+1 &lt; CF-RAY: 6c310d1378823c0c-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QIPHtQA2M2rBctbISRrtIc4Wl%2BylTqYOW4tXUZFQhqnCZYsrwz61xzfPfHcx8Uf3g2OgYMD%2BocXszmeTvIh3EtrwiOeaumQqL7GQefFizvM75BfGQpERlxodnn0%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JHoOqf8Ycv1Jtr5jSwQ5cMMckw0jX2ElKy5j%2BmGYlLslsxGd9DQGA83fmsiz62hEeQOEtU4biiSAj1SgbiilcRWCzqVzngfZ2%2FCOisHJ%2BMs%2FtpfysHYtSdLaUrw%3D"}],"group":"cf-nel","max_age":604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -986,9 +986,9 @@
 <div class="step-ref passed">42</div>
 <div class="step-cell passed">And print response</div>
 </div>
-<div class="time-cell passed">4</div>
+<div class="time-cell passed">1</div>
 </div>
-<div class="preformatted" data-parent="42">13:20:18.277 [print] {
+<div class="preformatted" data-parent="42">15:00:30.113 [print] {
   "per_page": 6,
   "total": 12,
   "data": [
@@ -1047,28 +1047,28 @@
 <div class="step-ref passed">43</div>
 <div class="step-cell passed">And match response.data[0].first_name != null</div>
 </div>
-<div class="time-cell passed">14</div>
+<div class="time-cell passed">12</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="44">
 <div class="step-ref passed">44</div>
 <div class="step-cell passed">And assert response.data.length == 6</div>
 </div>
-<div class="time-cell passed">24</div>
+<div class="time-cell passed">17</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="45">
 <div class="step-ref passed">45</div>
 <div class="step-cell passed">And match $.data[1].id == 8</div>
 </div>
-<div class="time-cell passed">11</div>
+<div class="time-cell passed">4</div>
 </div>
 <div class="step-row">
 <div class="step-container" id="46">
 <div class="step-ref passed">46</div>
 <div class="step-cell passed">And match $.data[3].last_name == 'Fields'</div>
 </div>
-<div class="time-cell passed">9</div>
+<div class="time-cell passed">3</div>
 </div>
 </div>
 </div>

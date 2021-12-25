@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">7.641s</div>
+<div class="counter">6.396s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">testParallel()</td>
-<td class="success">7.641s</td>
+<td class="success">6.396s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -91,20 +91,13 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>null
-13:20:16.055 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
-13:20:16.395 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
-13:20:16.400 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
-13:20:16.402 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
-13:20:16.395 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
-13:20:16.394 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
-13:20:17.612 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
-1 &gt; DELETE https://reqres.in/api/users/2
-1 &gt; Accept-Encoding: gzip,deflate
-1 &gt; Connection: Keep-Alive
-1 &gt; Host: reqres.in
-1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
-
-13:20:17.613 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+15:00:28.020 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:00:28.314 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+15:00:28.317 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:00:28.318 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+15:00:28.319 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
+15:00:28.341 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+15:00:29.487 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
 1 &gt; GET https://reqres.in/api/users%3Fpage=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -112,29 +105,15 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:17.614 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
-1 &gt; POST https://reqres.in/api/users
+15:00:29.492 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 &gt; GET https://reqres.in/api/users%3Fpage=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 32
-1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
-{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;}
 
-13:20:17.614 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
-1 &gt; POST https://reqres.in/api/users
-1 &gt; Accept: application/json
-1 &gt; Accept-Encoding: gzip,deflate
-1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 32
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Host: reqres.in
-1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
-{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;}
-
-13:20:17.621 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+15:00:29.496 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
 1 &gt; PUT https://reqres.in/api/users/2
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -144,18 +123,40 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 {&quot;name&quot;:&quot;Raam&quot;,&quot;job&quot;:&quot;QA Engineer&quot;}
 
-13:20:18.069 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 451.17
+15:00:29.493 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 32
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;}
+
+15:00:29.503 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 32
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;}
+
+15:00:29.900 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 393.94
 1 &lt; 200
-1 &lt; Age: 3712
+1 &lt; Age: 22
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4b6dda3c00-BLR
+1 &lt; CF-RAY: 6c310d121f6083f5-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=i1pnkkaRzYUAb7W8dcftq%2BN%2FYHqOD2TLT%2FSLpkbwSq9iRj3ZpSsXZKvGUZAObhR2jlzlwCy%2FTah1e4EVTF%2F6QD4nKCdqPjmQQmBobDPnheMC0H30jCoUQdLdL5E%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ShWdm2Fd9vlTWSDAQzHx0kOwTuB82WonscEDF5k9mhwq4JhBdOlohphnDjU1pGNzxduW6rJbwNoWiR1IvQHN3vLDfZ3vyBANSlS1gpiXvgOIqE42e5sPjt%2BSFJA%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -220,7 +221,83 @@
 }
 
 
-13:20:18.075 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+15:00:29.901 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 392.63
+1 &lt; 200
+1 &lt; Age: 22
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 6c310d121d6a3c12-BLR
+1 &lt; Cache-Control: max-age=14400
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=OTLO2kH%2FKGkA9XlzRgOdMzN%2BYIXdvOA2cYERmUdOJYx4tQYNprPtdFzFGn31%2F%2FxK7Nmp6YBeCpfRmHpm3ijvlDoZ8wuqeq2MngSms4Vt1wo7G9LRUMunccZb5zg%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; access-control-allow-origin: *
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
+1 &lt; etag: W/&quot;2c1-N6Rqerxquq2kgQhL51EiSg4x0R8&quot;
+1 &lt; via: 1.1 vegur
+1 &lt; x-powered-by: Express
+{
+  &quot;page&quot;: 1,
+  &quot;per_page&quot;: 6,
+  &quot;total&quot;: 12,
+  &quot;total_pages&quot;: 2,
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;name&quot;: &quot;cerulean&quot;,
+      &quot;year&quot;: 2000,
+      &quot;color&quot;: &quot;#98B2D1&quot;,
+      &quot;pantone_value&quot;: &quot;15-4020&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;name&quot;: &quot;fuchsia rose&quot;,
+      &quot;year&quot;: 2001,
+      &quot;color&quot;: &quot;#C74375&quot;,
+      &quot;pantone_value&quot;: &quot;17-2031&quot;
+    },
+    {
+      &quot;id&quot;: 3,
+      &quot;name&quot;: &quot;true red&quot;,
+      &quot;year&quot;: 2002,
+      &quot;color&quot;: &quot;#BF1932&quot;,
+      &quot;pantone_value&quot;: &quot;19-1664&quot;
+    },
+    {
+      &quot;id&quot;: 4,
+      &quot;name&quot;: &quot;aqua sky&quot;,
+      &quot;year&quot;: 2003,
+      &quot;color&quot;: &quot;#7BC4C4&quot;,
+      &quot;pantone_value&quot;: &quot;14-4811&quot;
+    },
+    {
+      &quot;id&quot;: 5,
+      &quot;name&quot;: &quot;tigerlily&quot;,
+      &quot;year&quot;: 2004,
+      &quot;color&quot;: &quot;#E2583E&quot;,
+      &quot;pantone_value&quot;: &quot;17-1456&quot;
+    },
+    {
+      &quot;id&quot;: 6,
+      &quot;name&quot;: &quot;blue turquoise&quot;,
+      &quot;year&quot;: 2005,
+      &quot;color&quot;: &quot;#53B0AE&quot;,
+      &quot;pantone_value&quot;: &quot;15-5217&quot;
+    }
+  ],
+  &quot;support&quot;: {
+    &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+    &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+  }
+}
+
+
+15:00:29.933 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] {
   &quot;per_page&quot;: 6,
   &quot;total&quot;: 12,
   &quot;data&quot;: [
@@ -275,11 +352,11 @@
   }
 }
 
-13:20:18.077 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 451
-13:20:18.079 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 200
-13:20:18.080 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+15:00:29.935 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 394
+15:00:29.935 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 200
+15:00:29.936 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] {
   &quot;Date&quot;: [
-    &quot;Sat, 25 Dec 2021 07:50:18 GMT&quot;
+    &quot;Sat, 25 Dec 2021 09:30:30 GMT&quot;
   ],
   &quot;Content-Type&quot;: [
     &quot;application/json; charset=utf-8&quot;
@@ -309,13 +386,13 @@
     &quot;HIT&quot;
   ],
   &quot;Age&quot;: [
-    &quot;3712&quot;
+    &quot;22&quot;
   ],
   &quot;Expect-CT&quot;: [
     &quot;max-age=604800, report-uri=\&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\&quot;&quot;
   ],
   &quot;Report-To&quot;: [
-    &quot;{\&quot;endpoints\&quot;:[{\&quot;url\&quot;:\&quot;https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=i1pnkkaRzYUAb7W8dcftq%2BN%2FYHqOD2TLT%2FSLpkbwSq9iRj3ZpSsXZKvGUZAObhR2jlzlwCy%2FTah1e4EVTF%2F6QD4nKCdqPjmQQmBobDPnheMC0H30jCoUQdLdL5E%3D\&quot;}],\&quot;group\&quot;:\&quot;cf-nel\&quot;,\&quot;max_age\&quot;:604800}&quot;
+    &quot;{\&quot;endpoints\&quot;:[{\&quot;url\&quot;:\&quot;https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ShWdm2Fd9vlTWSDAQzHx0kOwTuB82WonscEDF5k9mhwq4JhBdOlohphnDjU1pGNzxduW6rJbwNoWiR1IvQHN3vLDfZ3vyBANSlS1gpiXvgOIqE42e5sPjt%2BSFJA%3D\&quot;}],\&quot;group\&quot;:\&quot;cf-nel\&quot;,\&quot;max_age\&quot;:604800}&quot;
   ],
   &quot;NEL&quot;: [
     &quot;{\&quot;success_fraction\&quot;:0,\&quot;report_to\&quot;:\&quot;cf-nel\&quot;,\&quot;max_age\&quot;:604800}&quot;
@@ -327,100 +404,15 @@
     &quot;cloudflare&quot;
   ],
   &quot;CF-RAY&quot;: [
-    &quot;6c307a4b6dda3c00-BLR&quot;
+    &quot;6c310d121f6083f5-BLR&quot;
   ],
   &quot;alt-svc&quot;: [
     &quot;h3=\&quot;:443\&quot;; ma=86400, h3-29=\&quot;:443\&quot;; ma=86400, h3-28=\&quot;:443\&quot;; ma=86400, h3-27=\&quot;:443\&quot;; ma=86400&quot;
   ]
 }
 
-13:20:18.083 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 
-13:20:18.094 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
-13:20:18.104 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
-1 &gt; GET https://reqres.in/api/users%3Fpage=2
-1 &gt; Accept: application/json
-1 &gt; Accept-Encoding: gzip,deflate
-1 &gt; Connection: Keep-Alive
-1 &gt; Host: reqres.in
-1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
-
-13:20:18.137 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 30.58
-1 &lt; 200
-1 &lt; Age: 3712
-1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4bea3e3c06-BLR
-1 &lt; Cache-Control: max-age=14400
-1 &lt; Connection: keep-alive
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
-1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=evRu1AxkasF7w%2BvHsC9RtdqbWj7hlSi4NVzpK2MX%2FWK5fsS%2B5dnWM6yfzWKJv7hQfxNCqKd%2BjlJZXuaqDiBI%2FtdmDx2CoVGJtRdeRD0Ch1XCz%2BbOjkEkPUbfLSU%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Server: cloudflare
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Vary: Accept-Encoding
-1 &lt; access-control-allow-origin: *
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
-1 &lt; etag: W/&quot;2c1-N6Rqerxquq2kgQhL51EiSg4x0R8&quot;
-1 &lt; via: 1.1 vegur
-1 &lt; x-powered-by: Express
-{
-  &quot;page&quot;: 1,
-  &quot;per_page&quot;: 6,
-  &quot;total&quot;: 12,
-  &quot;total_pages&quot;: 2,
-  &quot;data&quot;: [
-    {
-      &quot;id&quot;: 1,
-      &quot;name&quot;: &quot;cerulean&quot;,
-      &quot;year&quot;: 2000,
-      &quot;color&quot;: &quot;#98B2D1&quot;,
-      &quot;pantone_value&quot;: &quot;15-4020&quot;
-    },
-    {
-      &quot;id&quot;: 2,
-      &quot;name&quot;: &quot;fuchsia rose&quot;,
-      &quot;year&quot;: 2001,
-      &quot;color&quot;: &quot;#C74375&quot;,
-      &quot;pantone_value&quot;: &quot;17-2031&quot;
-    },
-    {
-      &quot;id&quot;: 3,
-      &quot;name&quot;: &quot;true red&quot;,
-      &quot;year&quot;: 2002,
-      &quot;color&quot;: &quot;#BF1932&quot;,
-      &quot;pantone_value&quot;: &quot;19-1664&quot;
-    },
-    {
-      &quot;id&quot;: 4,
-      &quot;name&quot;: &quot;aqua sky&quot;,
-      &quot;year&quot;: 2003,
-      &quot;color&quot;: &quot;#7BC4C4&quot;,
-      &quot;pantone_value&quot;: &quot;14-4811&quot;
-    },
-    {
-      &quot;id&quot;: 5,
-      &quot;name&quot;: &quot;tigerlily&quot;,
-      &quot;year&quot;: 2004,
-      &quot;color&quot;: &quot;#E2583E&quot;,
-      &quot;pantone_value&quot;: &quot;17-1456&quot;
-    },
-    {
-      &quot;id&quot;: 6,
-      &quot;name&quot;: &quot;blue turquoise&quot;,
-      &quot;year&quot;: 2005,
-      &quot;color&quot;: &quot;#53B0AE&quot;,
-      &quot;pantone_value&quot;: &quot;15-5217&quot;
-    }
-  ],
-  &quot;support&quot;: {
-    &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
-    &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
-  }
-}
-
-
-13:20:18.141 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+15:00:29.938 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 
+15:00:29.943 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
   &quot;per_page&quot;: 6,
   &quot;total&quot;: 12,
   &quot;data&quot;: [
@@ -475,8 +467,16 @@
   }
 }
 
-13:20:18.155 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
-13:20:18.168 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+15:00:29.951 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+15:00:29.957 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 &gt; DELETE https://reqres.in/api/users/2
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+
+15:00:29.964 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+15:00:29.989 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
 1 &gt; GET https://reqres.in/api/users?page=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -484,18 +484,18 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:18.204 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 34.01
+15:00:30.039 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 47.74
 1 &lt; 200
-1 &lt; Age: 82
+1 &lt; Age: 6094
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4c5ad43c12-BLR
+1 &lt; CF-RAY: 6c310d13084e3c0c-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=mzzE7BNNltsSMf7b%2Fq%2BmMtr7Sp%2FL1FxqG07rUnkAxL3kWihNTuR80W4L7p9aDRFyxo1pP%2FH4f3U2sNUMi2WxS3IOQwrtE%2BO0qIRJmuJIiTiwEqjsPT6gmswnysI%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=sGTmszQHAZd7pg%2F2BiAuRCV%2BMjYuV9KF5HYOKxGeJDMlvoPznnD4ZuMgaMTUjG0bO1BcIZXr%2FmftTyI4tOQoY2yHMDj8z3oR2DpFdjN7HlDiht2Sy4H0hh00m1A%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -560,7 +560,7 @@
 }
 
 
-13:20:18.208 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+15:00:30.041 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
   &quot;per_page&quot;: 6,
   &quot;total&quot;: 12,
   &quot;data&quot;: [
@@ -615,8 +615,8 @@
   }
 }
 
-13:20:18.232 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
-13:20:18.239 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+15:00:30.053 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+15:00:30.058 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
 1 &gt; GET https://reqres.in/api/users?page=2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -624,18 +624,18 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 
-13:20:18.270 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 28.25
+15:00:30.110 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 48.97
 1 &lt; 200
-1 &lt; Age: 82
+1 &lt; Age: 6094
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6c307a4ccedc3c01-BLR
+1 &lt; CF-RAY: 6c310d1378823c0c-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=QIPHtQA2M2rBctbISRrtIc4Wl%2BylTqYOW4tXUZFQhqnCZYsrwz61xzfPfHcx8Uf3g2OgYMD%2BocXszmeTvIh3EtrwiOeaumQqL7GQefFizvM75BfGQpERlxodnn0%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=JHoOqf8Ycv1Jtr5jSwQ5cMMckw0jX2ElKy5j%2BmGYlLslsxGd9DQGA83fmsiz62hEeQOEtU4biiSAj1SgbiilcRWCzqVzngfZ2%2FCOisHJ%2BMs%2FtpfysHYtSdLaUrw%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
@@ -700,7 +700,7 @@
 }
 
 
-13:20:18.274 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+15:00:30.112 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
   &quot;per_page&quot;: 6,
   &quot;total&quot;: 12,
   &quot;data&quot;: [
@@ -755,52 +755,33 @@
   }
 }
 
-13:20:18.376 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 756.99
-1 &lt; 204
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 6c307a4b6be13c0d-BLR
-1 &lt; Connection: keep-alive
-1 &lt; Content-Length: 0
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
-1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=iSeT5OfDarMiJjsENTN1joDLiYW%2FVmBlEDFoqPMfGj%2BxipDrmNMDaFtiQk6FP5bX4MmajeBGos%2BvEAWTfvzjIRR8U8ixxP11%2BTswi1DShufZYOalCfI9ogKzyFA%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Server: cloudflare
-1 &lt; access-control-allow-origin: *
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
-1 &lt; etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
-1 &lt; via: 1.1 vegur
-1 &lt; x-powered-by: Express
-
-13:20:18.377 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 204
-13:20:18.377 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 
-13:20:18.378 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 758.14
+15:00:30.193 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 690.00
 1 &lt; 201
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 6c307a4b6b5683f5-BLR
+1 &lt; CF-RAY: 6c310d121cec3c13-BLR
 1 &lt; Connection: keep-alive
-1 &lt; Content-Length: 81
+1 &lt; Content-Length: 82
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gTf3PpGWkcleapS3i11MKpa5%2FKaA3WU4m0jbw8dWxxxgVRB8kAi%2BlavlE8QMMPkrJeF0p7jxreiLy6%2FiLhX1Z3fsCwlv0lxHSM716KYrK7P99vSAC0%2FesxBz%2BSQ%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=159g9MgotFdBMWyfRtCeYFWOUlKOytwHFP4oxKB9swf3Lgva7BJYxLQFMr4430eIaV0D4fODi1DlR8r8HeVngbZm0ll7JXW7VcAQe1TYs9Pj1%2BwC9hCpw6%2FHDrM%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
 1 &lt; access-control-allow-origin: *
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
-1 &lt; etag: W/&quot;51-3G4JolwuF9V7Zexn8eCE+B6HArk&quot;
+1 &lt; etag: W/&quot;52-Yay27t90RIXerfd25D/lE/B2khM&quot;
 1 &lt; via: 1.1 vegur
 1 &lt; x-powered-by: Express
-{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;,&quot;id&quot;:&quot;39&quot;,&quot;createdAt&quot;:&quot;2021-12-25T07:50:18.399Z&quot;}
+{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;,&quot;id&quot;:&quot;822&quot;,&quot;createdAt&quot;:&quot;2021-12-25T09:30:30.335Z&quot;}
 
-13:20:18.379 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
-  &quot;createdAt&quot;: &quot;2021-12-25T07:50:18.399Z&quot;,
+15:00:30.195 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  &quot;createdAt&quot;: &quot;2021-12-25T09:30:30.335Z&quot;,
   &quot;name&quot;: &quot;Ramesh&quot;,
-  &quot;id&quot;: &quot;39&quot;,
+  &quot;id&quot;: &quot;822&quot;,
   &quot;job&quot;: &quot;Tester&quot;
 }
 
-13:20:18.384 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+15:00:30.199 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
 1 &gt; POST https://reqres.in/api/users
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -810,114 +791,133 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
 {&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;}
 
-13:20:18.387 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 761.78
-1 &lt; 200
+15:00:30.203 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 690.96
+1 &lt; 201
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 6c307a4b68123c13-BLR
+1 &lt; CF-RAY: 6c310d121c6e3c00-BLR
 1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 80
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=NQvjyuZBy2WOZKRSNaPQ2f53lgtu96qf9IsCb4NmY6NHB4U%2BjrP%2Bwv2AN%2Bg7syp10kKY27SS5leI7lv2Ewy05zoID%2FxDl%2FxyjdZRpMpnrTs%2BTh%2BoJi%2FDRmHIg50%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=AVEHKULWPPugOpZ%2FzcTP3stZlvuVebHMIa%2FSQ7%2BvIrnsXp2vXbWgO87XSnLdJjhtR2dbhhe6IfcrBasFApG%2Fuu73pQ8ggq9PztVwjHVN7aO1RQk7GCJlGzN91CE%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; access-control-allow-origin: *
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
+1 &lt; etag: W/&quot;50-pqlRa91t++SmBHyJx1bq3aaVZwE&quot;
+1 &lt; via: 1.1 vegur
+1 &lt; x-powered-by: Express
+{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;,&quot;id&quot;:&quot;7&quot;,&quot;createdAt&quot;:&quot;2021-12-25T09:30:30.339Z&quot;}
+
+15:00:30.213 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  &quot;createdAt&quot;: &quot;2021-12-25T09:30:30.339Z&quot;,
+  &quot;name&quot;: &quot;Ramesh&quot;,
+  &quot;id&quot;: &quot;7&quot;,
+  &quot;job&quot;: &quot;Tester&quot;
+}
+
+15:00:30.215 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 712.65
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 6c310d121f5e83f5-BLR
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=4ETJRDrkeiLfObOnZtlP29L7d7Ps1fNosoPe9YjxbM2dTAflp6qM07U%2BYiU7bQemqr2J76ArybcvnK%2F8HgM1MdBCRCV1MokcJKM447pQE6LyKUn0X4J%2BdUtWulY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
 1 &lt; access-control-allow-origin: *
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
-1 &lt; etag: W/&quot;4a-uyZbDTSPh3ppb3aSMx2BdK/LNHQ&quot;
+1 &lt; etag: W/&quot;4a-M59lurAffx1XZUshap1z4dDW//s&quot;
 1 &lt; via: 1.1 vegur
 1 &lt; x-powered-by: Express
-{&quot;name&quot;:&quot;Raam&quot;,&quot;job&quot;:&quot;QA Engineer&quot;,&quot;updatedAt&quot;:&quot;2021-12-25T07:50:18.400Z&quot;}
+{&quot;name&quot;:&quot;Raam&quot;,&quot;job&quot;:&quot;QA Engineer&quot;,&quot;updatedAt&quot;:&quot;2021-12-25T09:30:30.350Z&quot;}
 
-13:20:18.388 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+15:00:30.218 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
   &quot;name&quot;: &quot;Raam&quot;,
   &quot;job&quot;: &quot;QA Engineer&quot;,
-  &quot;updatedAt&quot;: &quot;2021-12-25T07:50:18.400Z&quot;
+  &quot;updatedAt&quot;: &quot;2021-12-25T09:30:30.350Z&quot;
 }
 
-13:20:18.389 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] 200
-13:20:18.394 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 775.72
-1 &lt; 201
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 6c307a4b6dd93c00-BLR
-1 &lt; Connection: keep-alive
-1 &lt; Content-Length: 82
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
-1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=4O3gIGYyDSqj%2FCV1dYDhLL88IIihN1FVWSLzqrRvUYL49GotAuZkvFzpcE%2Fybykz2cjAh7ZITOr%2FO%2FSm2JlRaXYG8yG2LeWXyFef8YkqUqSOYfnzlhuKHpGNx5s%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Server: cloudflare
-1 &lt; access-control-allow-origin: *
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
-1 &lt; etag: W/&quot;52-SnO3DrnhtXrt1+qdEEoIhPolgpw&quot;
-1 &lt; via: 1.1 vegur
-1 &lt; x-powered-by: Express
-{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;,&quot;id&quot;:&quot;967&quot;,&quot;createdAt&quot;:&quot;2021-12-25T07:50:18.412Z&quot;}
-
-13:20:18.395 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
-  &quot;createdAt&quot;: &quot;2021-12-25T07:50:18.412Z&quot;,
-  &quot;name&quot;: &quot;Ramesh&quot;,
-  &quot;id&quot;: &quot;967&quot;,
-  &quot;job&quot;: &quot;Tester&quot;
-}
-
-13:20:18.491 [pool-1-thread-2] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 2 of 5: classpath:examples/users/get.feature
----------------------------------------------------------
-feature: classpath:examples/users/get.feature
-report: build\surefire-reports\examples.users.get.json
-scenarios:  4 | passed:  4 | failed:  0 | time: 1.7313
----------------------------------------------------------
-13:20:18.493 [pool-1-thread-4] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 4 of 5: classpath:examples/users/PostHeader.feature
+15:00:30.218 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 200
+15:00:30.262 [pool-1-thread-5] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 5 of 5: classpath:examples/users/Put.feature
+15:00:30.262 [pool-1-thread-4] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 4 of 5: classpath:examples/users/PostHeader.feature
 ---------------------------------------------------------
 feature: classpath:examples/users/PostHeader.feature
 report: build\surefire-reports\examples.users.PostHeader.json
-scenarios:  1 | passed:  1 | failed:  0 | time: 1.8396
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.7747
 ---------------------------------------------------------
-13:20:18.496 [pool-1-thread-1] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 1 of 5: classpath:examples/users/Delete.feature
----------------------------------------------------------
-feature: classpath:examples/users/Delete.feature
-report: build\surefire-reports\examples.users.Delete.json
-scenarios:  1 | passed:  1 | failed:  0 | time: 1.8307
----------------------------------------------------------
-13:20:18.503 [pool-1-thread-5] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 5 of 5: classpath:examples/users/Put.feature
 ---------------------------------------------------------
 feature: classpath:examples/users/Put.feature
 report: build\surefire-reports\examples.users.Put.json
-scenarios:  1 | passed:  1 | failed:  0 | time: 1.8389
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.7811
 ---------------------------------------------------------
-13:20:18.719 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 334.29
-1 &lt; 201
+15:00:30.264 [pool-1-thread-2] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 2 of 5: classpath:examples/users/get.feature
+---------------------------------------------------------
+feature: classpath:examples/users/get.feature
+report: build\surefire-reports\examples.users.get.json
+scenarios:  4 | passed:  4 | failed:  0 | time: 3.1582
+---------------------------------------------------------
+15:00:30.320 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 362.45
+1 &lt; 204
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 6c307a4daf7c3c00-BLR
+1 &lt; CF-RAY: 6c310d12eb2183f3-BLR
 1 &lt; Connection: keep-alive
-1 &lt; Content-Length: 82
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 25 Dec 2021 07:50:18 GMT
+1 &lt; Content-Length: 0
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=aWugaVbg5uQ6ucV39aGcmuOCXwDHQR0SlQRAEB7mWn6EHaTgrWFXkQ9b2qW03nYvj62PcSR8U7fQpSeehRoyYQjEMZgqE0DMIjjJbwlT46wZf4cXRiFSr%2FYSaDk%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=YPnqYQBqfkdJxJELTTdpsNZ2szgeCI7ops9mz44CxvLRqmeNDcAPIX0l02LBOHN0%2FGSPKU08A7YBcY0LXzMxAC%2BKAUaMQ2hvYxXVEsxoStXLxXBO6P6tHFa0iMs%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
 1 &lt; access-control-allow-origin: *
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
-1 &lt; etag: W/&quot;52-ZJEUMxX/I61QpM1fWhY85kkgWuI&quot;
+1 &lt; etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
 1 &lt; via: 1.1 vegur
 1 &lt; x-powered-by: Express
-{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;,&quot;id&quot;:&quot;550&quot;,&quot;createdAt&quot;:&quot;2021-12-25T07:50:18.745Z&quot;}
 
-13:20:18.724 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
-  &quot;createdAt&quot;: &quot;2021-12-25T07:50:18.745Z&quot;,
+15:00:30.322 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 204
+15:00:30.323 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 
+15:00:30.334 [pool-1-thread-1] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 1 of 5: classpath:examples/users/Delete.feature
+---------------------------------------------------------
+feature: classpath:examples/users/Delete.feature
+report: build\surefire-reports\examples.users.Delete.json
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.3694
+---------------------------------------------------------
+15:00:30.563 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 362.74
+1 &lt; 201
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 6c310d14591c3c0c-BLR
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 82
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Sat, 25 Dec 2021 09:30:30 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=2jagYMhMm1UNF2BxPTqbcIlSuI1FK2RO5UbXVMIY02ntoQaDjoVnx%2FLZ7V3ryV5Ml0Y3whVM7DWz2BG7xdtWtqQvjHD9uCiHvzSTrtvyE3wzLquYnXw%2FCGSK29Q%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; access-control-allow-origin: *
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
+1 &lt; etag: W/&quot;52-nVBMGr5Lx9Gte/MPzYWYXHLDIHA&quot;
+1 &lt; via: 1.1 vegur
+1 &lt; x-powered-by: Express
+{&quot;name&quot;:&quot;Ramesh&quot;,&quot;job&quot;:&quot;Tester&quot;,&quot;id&quot;:&quot;805&quot;,&quot;createdAt&quot;:&quot;2021-12-25T09:30:30.701Z&quot;}
+
+15:00:30.566 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  &quot;createdAt&quot;: &quot;2021-12-25T09:30:30.701Z&quot;,
   &quot;name&quot;: &quot;Ramesh&quot;,
-  &quot;id&quot;: &quot;550&quot;,
+  &quot;id&quot;: &quot;805&quot;,
   &quot;job&quot;: &quot;Tester&quot;
 }
 
-13:20:18.743 [pool-1-thread-3] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 3 of 5: classpath:examples/users/Post.feature
+15:00:30.586 [pool-1-thread-3] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 3 of 5: classpath:examples/users/Post.feature
 ---------------------------------------------------------
 feature: classpath:examples/users/Post.feature
 report: build\surefire-reports\examples.users.Post.json
-scenarios:  1 | passed:  1 | failed:  0 | time: 2.1780
+scenarios:  1 | passed:  1 | failed:  0 | time: 2.1291
 ---------------------------------------------------------
 
 HTML report: (paste into browser to view) | Karate version: 0.9.6
@@ -926,8 +926,8 @@ file:/C:/Users/Lenovo/IdeaProjects/karate-archetype/build/surefire-reports/karat
 
 Karate version: 0.9.6
 ======================================================
-elapsed:   4.00 | threads:    5 | thread time: 9.42 
-features:     5 | ignored:    0 | efficiency: 0.47
+elapsed:   3.75 | threads:    5 | thread time: 9.21 
+features:     5 | ignored:    0 | efficiency: 0.49
 scenarios:    8 | passed:     8 | failed: 0
 ======================================================
 
@@ -937,15 +937,15 @@ scenarios:    8 | passed:     8 | failed: 0
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Dec 25, 2021 1:20:19 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+<pre>Dec 25, 2021 3:00:31 PM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File 'C:\Users\Lenovo\IdeaProjects\karate-archetype\build\surefire-reports\examples.users.Delete.json' contains 1 features
-Dec 25, 2021 1:20:19 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Dec 25, 2021 3:00:31 PM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File 'C:\Users\Lenovo\IdeaProjects\karate-archetype\build\surefire-reports\examples.users.get.json' contains 1 features
-Dec 25, 2021 1:20:19 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Dec 25, 2021 3:00:31 PM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File 'C:\Users\Lenovo\IdeaProjects\karate-archetype\build\surefire-reports\examples.users.Post.json' contains 1 features
-Dec 25, 2021 1:20:19 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Dec 25, 2021 3:00:31 PM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File 'C:\Users\Lenovo\IdeaProjects\karate-archetype\build\surefire-reports\examples.users.PostHeader.json' contains 1 features
-Dec 25, 2021 1:20:19 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Dec 25, 2021 3:00:31 PM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File 'C:\Users\Lenovo\IdeaProjects\karate-archetype\build\surefire-reports\examples.users.Put.json' contains 1 features
 </pre>
 </span>
@@ -958,7 +958,7 @@ INFO: File 'C:\Users\Lenovo\IdeaProjects\karate-archetype\build\surefire-reports
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.1</a> at Dec 25, 2021 1:20:22 PM</p>
+<a href="http://www.gradle.org">Gradle 7.3.1</a> at Dec 25, 2021 3:00:33 PM</p>
 </div>
 </div>
 </body>

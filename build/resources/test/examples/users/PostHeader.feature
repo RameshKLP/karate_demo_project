@@ -1,4 +1,3 @@
-@ignore
 
 Feature: POST Header Repository
 
@@ -8,6 +7,7 @@ Background:
 * def expectedOutput = read('response1.json')
 * def input = read('request.json')
 
+  @TC6
 Scenario: Simple Post request demo 1
 Given url 'https://reqres.in/api/users'
 And request { "name": "Ramesh", "job": "Tester"}

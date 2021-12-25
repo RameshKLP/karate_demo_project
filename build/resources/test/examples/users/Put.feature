@@ -1,7 +1,7 @@
-@ignore
 
 Feature: Put API Demo
 
+  @TC7
   Scenario: PUT demo 1
     Given url 'https://reqres.in/api/users/2'
     And request { "name": "Raam", "job": "QA Engineer"}

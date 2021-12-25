@@ -1,12 +1,123 @@
-<testsuite failures="0" name="examples/users/get.feature" skipped="0" tests="1" time="1.407926">
-  <testcase classname="examples.users.get" name="Get Demo2" time="1.407926">
+<testsuite failures="0" name="examples/users/get.feature" skipped="0" tests="4" time="1.731307">
+  <testcase classname="examples.users.get" name="Get Demo1" time="1.530927">
     <system-out>* url someUrlBase ......................................................... passed
 * configure logPrettyResponse = true ...................................... passed
 * configure logPrettyRequest = true ....................................... passed
 * header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And print responseTime .................................................... passed
+And print responseStatus .................................................. passed
+And print responseHeaders ................................................. passed
+And print responseCookies ................................................. passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.get" name="Get Demo2" time="0.042927">
+    <system-out>* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And print responseTime .................................................... passed
+And print responseStatus .................................................. passed
+And print responseHeaders ................................................. passed
+And print responseCookies ................................................. passed
+* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
 Given path 'users?page=2' ................................................. passed
 When method GET ........................................................... passed
 Then status 200 ........................................................... passed
 And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.get" name="Get Demo3" time="0.057804">
+    <system-out>* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And print responseTime .................................................... passed
+And print responseStatus .................................................. passed
+And print responseHeaders ................................................. passed
+And print responseCookies ................................................. passed
+* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path '/users' ....................................................... passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.get" name="Get Demo4" time="0.099649">
+    <system-out>* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And print responseTime .................................................... passed
+And print responseStatus .................................................. passed
+And print responseHeaders ................................................. passed
+And print responseCookies ................................................. passed
+* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path 'users?page=2' ................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path '/users' ....................................................... passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url someUrlBase ......................................................... passed
+* configure logPrettyResponse = true ...................................... passed
+* configure logPrettyRequest = true ....................................... passed
+* header Accept = 'application/json' ...................................... passed
+* configure report = { showLog: true, showAllSteps: false } ............... passed
+Given path '/users' ....................................................... passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.data[0].first_name != null ............................. passed
+And assert response.data.length == 6 ...................................... passed
+And match $.data[1].id == 8 ............................................... passed
+And match $.data[3].last_name == 'Fields' ................................. passed</system-out>
   </testcase>
 </testsuite>

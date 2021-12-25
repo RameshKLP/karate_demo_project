@@ -29,6 +29,8 @@ class ExamplesTest {
         generateReport(results.getReportDir());
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
                 */
+        String user=System.getenv("USER");
+        System.out.println(user);
         Results results = Runner.path("classpath:examples/users").tags("~@ignore").parallel(5);
         generateReport(results.getReportDir());
         assertTrue(results.getFailCount() == 0, results.getErrorMessages());

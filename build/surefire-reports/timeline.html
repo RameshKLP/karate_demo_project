@@ -12,8 +12,8 @@
   <body>
     <div id="visualization"></div>
     <script>
-var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-1"}]);
-var items = new vis.DataSet([{"id":1,"group":1,"content":"get[2:22]","start":1759,"end":3182,"title":"get[2:22] 05:30:01.759-05:30:03.182 Get Demo2"}]);
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-2"},{"id":2,"content":"ForkJoinPool-1-worker-1"},{"id":3,"content":"ForkJoinPool-1-worker-4"},{"id":4,"content":"ForkJoinPool-1-worker-3"},{"id":5,"content":"ForkJoinPool-1-worker-5"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"Delete[1:5]","start":1786,"end":3631,"title":"Delete[1:5] 05:30:01.786-05:30:03.631 Delete API test"},{"id":2,"group":2,"content":"get[1:12]","start":1786,"end":3337,"title":"get[1:12] 05:30:01.786-05:30:03.337 Get Demo1"},{"id":3,"group":2,"content":"get[2:23]","start":3351,"end":3396,"title":"get[2:23] 05:30:03.351-05:30:03.396 Get Demo2"},{"id":4,"group":2,"content":"get[3:30]","start":3410,"end":3471,"title":"get[3:30] 05:30:03.410-05:30:03.471 Get Demo3"},{"id":5,"group":2,"content":"get[4:38]","start":3488,"end":3589,"title":"get[4:38] 05:30:03.488-05:30:03.589 Get Demo4"},{"id":6,"group":3,"content":"Post[1:5]","start":1786,"end":3978,"title":"Post[1:5] 05:30:01.786-05:30:03.978 Post request from background demo 2"},{"id":7,"group":4,"content":"PostHeader[1:11]","start":1786,"end":3648,"title":"PostHeader[1:11] 05:30:01.786-05:30:03.648 Simple Post request demo 1"},{"id":8,"group":5,"content":"Put[1:5]","start":1786,"end":3642,"title":"Put[1:5] 05:30:01.786-05:30:03.642 PUT demo 1"}]);
 var container = document.getElementById('visualization');
 var timeline = new vis.Timeline(container);
 timeline.setOptions({ groupOrder: 'content' });

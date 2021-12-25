@@ -5,6 +5,7 @@ Feature: GET API demo
     * configure logPrettyResponse = true
     * configure logPrettyRequest = true
     * header Accept = 'application/json'
+    * configure report = { showLog: true, showAllSteps: false }
 
 
   @TC1
@@ -25,7 +26,7 @@ Feature: GET API demo
     Then status 200
     And print response
 
-  @ignore
+  @TC3
   Scenario: Get Demo3
     Given path '/users'
     And param page = 2
@@ -33,7 +34,7 @@ Feature: GET API demo
     Then status 200
     And print response
 
-  @ignore
+  @TC4
   Scenario: Get Demo4
     Given path '/users'
     And param page = 2

@@ -3,7 +3,7 @@ plugins {
 }
 
 ext {
-    karateVersion = '0.9.6'
+    karateVersion = '0.9.5'
 }
 
 repositories {
@@ -18,7 +18,9 @@ test {
     systemProperty "karate.options", System.properties.getProperty("karate.options")
     // pull karate env into the runtime
     systemProperty "karate.env", System.properties.getProperty("karate.env")
-
+    testLogging {
+        events "PASSED", "SKIPPED", "FAILED", "STANDARD_OUT", "STANDARD_ERROR"
+    }
     // ensure tests are always run
     outputs.upToDateWhen { false }
 }
@@ -33,12 +35,14 @@ sourceSets {
 }
 
 dependencies {
-    testImplementation "com.intuit.karate:karate-junit5:${karateVersion}"
-    testImplementation "com.intuit.karate:karate-apache:${karateVersion}"
-    testImplementation group: 'net.masterthought', name: 'cucumber-reporting', version: '5.5.3'
+    testImplementation "com.intuit.karate:karate-junit5:0.9.5"
+    testImplementation "com.intuit.karate:karate-apache:0.9.6"
+    // https://mvnrepository.com/artifact/com.intuit.karate/karate-core
+   // testImplementation group: 'com.intuit.karate', name: 'karate-core', version: '1.2.0.RC2'
+    testImplementation "net.masterthought:cucumber-reporting:3.8.0"
 }
 
 task karateExecute(type: JavaExec) {
     classpath = sourceSets.test.runtimeClasspath
-    main = System.properties.getProperty('mainClass')
+     main = 'com.intuit.karate.Main'
 }
